@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pro_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".entj" />
+        <activity android:name=".enfj" />
+        <activity android:name=".esfj" />
+        <activity android:name=".estj" />
+        <activity android:name=".entp" />
+        <activity android:name=".esfp" />
+        <activity android:name=".estp" />
+        <activity android:name=".intp" />
+        <activity android:name=".infp" />
+        <activity android:name=".isfp" />
+        <activity android:name=".istp" />
+        <activity android:name=".intj" />
+        <activity android:name=".infj" />
+        <activity android:name=".isfj" />
+        <activity android:name=".istj" />
+        <activity android:name=".enfp" />
+        <activity android:name=".ISTJ" />
+        <activity android:name=".SignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="google.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity1" />
+        <activity android:name=".PasswordResetActivity" />
+        <activity android:name=".MemberinitActivity" />
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".ChatActivity" />
+    </application>
+
+</manifest>
